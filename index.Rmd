@@ -35,7 +35,7 @@ knitr::kable(
 
 ## Enrollment and pre-requisites
 This workshop is open to current students and post-docs. Participants are expected to have completed a basic stock assessment or population dynamics course, be familiar with data analysis in R, and have a willingness to learn to run other code provided (e.g., AD Model Builder) with instruction. To express interest in the course, please
-<a href="https://forms.gle/rd9BtSX6LjVUP8c6A" style="color: DarkOrchid; text-decoration: bold;">complete this online form</a> by June 3, 2022. Students and post-docs enrolled in programs associated with NOAA's QUEST program and/or at CINAR institutions and  will be given first priority. All finalized course materials will be available to the public <a href="https://github.com/gnesslage/LBCourse" style="color: DarkOrchid; text-decoration: bold;">on Github</a> in January 2023.
+<a href="https://forms.gle/rd9BtSX6LjVUP8c6A" style="color: DarkOrchid; text-decoration: bold;">complete this online form</a> by June 3, 2022. Students and post-docs enrolled in programs associated with NOAA's QUEST program and/or at CINAR institutions and  will be given first priority. All finalized course materials will be available to the public <a href="https://github.com/gnesslage/LBSAT-Course" style="color: DarkOrchid; text-decoration: bold;">on Github</a> in January 2023.
 
 Software requirements:  
  - [R](https://cran.case.edu/)  
