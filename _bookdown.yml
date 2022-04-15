@@ -1,7 +1,7 @@
 book_filename: "Length-Based Stock Assessment Techniques Workshop"
 chapter_name: "Chapter "
-repo: https://github.com/gnesslage/LBSAT-Course
+repo: https://github.com/gnesslage/LBSAT-Workshop
 output_dir: docs
-#rmd_files: ["index.Rmd", "01-Introduction.Rmd", "02-Diving-In.Rmd"]
+#rmd_files: ["index.Rmd", "01-Introduction.Rmd"]
 clean: [packages.bib, bookdown.bbl]
 #new_session: yes

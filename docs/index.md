@@ -1,17 +1,17 @@
 --- 
-title: "A Minimal Bookdown Book"
-author: "Sean Kross"
-date: "2016-12-09"
+title: "Length-Based Stock Assessment Techniques Workshop"
+author: "Genny Nesslage"
+date: "2022-04-15"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: seankross/bookdown-start
-url: 'http\://seankross.com/bookdown-start/'
-description: "Everything you need (and nothing more) to start a bookdown book."
+github-repo: gnesslage/LBSAT-Workshop
+#url: ''
+description: "Syllabus and workshop materials"
 ---
 
 # Preface {-}
 
-This is the very first part of the book.
+
