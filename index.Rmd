@@ -14,19 +14,20 @@ description: "Syllabus and course materials"
 
 # Syllabus
 ## Workshop description
-This webinar-based workshop series will provide participants with an introduction to length-based data analysis and stock assessment techniques from data-limited approaches to statistical catch-at-length methods. The workshop will involve a combination of lectures, readings, hands-on exercises, and discussion. Breakout groups will work cooperatively to analyze data and interpret model output. Guest speakers from agencies and academia will provide presentations on the application of length-based assessment techniques in research and management and engage students in discussion about careers in quantitative fisheries science.
+This webinar-based workshop series will provide participants with an introduction to length-based data analysis and stock assessment techniques from data-limited approaches to statistical catch-at-length methods. The workshop will involve a combination of lectures, readings, hands-on exercises, and discussion. Breakout groups will work cooperatively to analyze data, explore modeling techniques, and interpret model output. Guest speakers from agencies and academia will provide presentations on the application of length-based assessment techniques in research and management and engage students in discussion about careers in quantitative fisheries science.
 
 ## Instructor
 Genny Nesslage (she/her) is an Assistant Research Professor at the University of Maryland Center for Environmental Science <a href="https://www.umces.edu/cbl" style="color: DarkOrchid; text-decoration: bold;">Chesapeake Biological Laboratory</a>. Genny is a CINAR Fellow in Quantitative Fisheries and Ecosystem Science. This workshop is funded by NOAA Fisheries <a href="https://www.fisheries.noaa.gov/content/quantitative-ecology-and-socioeconomics-training-quest-program" style="color: DarkOrchid; text-decoration: bold;">QUEST program</a>, the <a href="https://www.fisheries.noaa.gov/about/northeast-fisheries-science-center" style="color: DarkOrchid; text-decoration: bold;">Northeast Fisheries Science Center</a>, and <a href="https://website.whoi.edu/cinar/education-outreach" style="color: DarkOrchid; text-decoration: bold;">CINAR’s Education program</a>.  
 
-Email: <a href="nesslage@umces.edu " style="color: DarkOrchid; text-decoration: bold;">nesslage@umces.edu </a>  
+Email: nesslage@umces.edu
+
 Website: <a href="https://nesslage.wixsite.com/mysite" style="color: DarkOrchid; text-decoration: bold;">nesslage.wixsite.com/mysite</a>
 
 ## Schedule
-Participants will meet via Zoom weekly on Thursdays from 3:00-5:00PM Eastern from September 1-December 8, 2022. We will not meet on Thanksgiving Day (Nov 24). Tentative schedule:
+Participants will meet via webinar weekly on Thursdays from 3:00-5:00PM Eastern from September 1-December 8, 2022. We will not meet on Thanksgiving Day (Nov 24). Tentative schedule:
 ```{r,echo=FALSE}
 Dates=c("Sept 1","Sept 8","Sept 15","Sept 22","Sept 29","Oct 6","Oct 13","Oct 20","Oct 27","Nov 3","Nov 10","Nov 17","Dec 1","Dec 8")
-Topic=c("Introduction","Length-frequency analysis","Data-limited approaches","Data-limited approaches","Stage-based modeling","Stage-based modeling","Statistical catch-at-length models","Statistical catch-at-length models","Statistical catch-at-length models","Statistical catch-at-length models","Age-length hybrid models","Age-length hybrid models","Techniques in development","Wrap up and reflection")
+Topic=c("Introduction","Growth and length data","Length-frequency analysis","Data-limited approaches","Data-limited approaches","Stage-based modeling","Stage-based modeling","Statistical catch-at-length models","Statistical catch-at-length models","Statistical catch-at-length models","Age-length hybrid models","Age-length hybrid models","Techniques in development","Wrap up and reflection")
 syllabus=data.frame(Dates,Topic)
 knitr::kable(
   head(syllabus[,1:2],14), booktabs = TRUE,format="pandoc"
@@ -34,10 +35,12 @@ knitr::kable(
 ```
 
 ## Enrollment and pre-requisites
-This workshop is open to current students and post-docs. Participants are expected to have completed a basic stock assessment or population dynamics course, be familiar with data analysis in R, and have a willingness to learn to run other code provided (e.g., AD Model Builder) with instruction. To express interest in the course, please
-<a href="https://forms.gle/rd9BtSX6LjVUP8c6A" style="color: DarkOrchid; text-decoration: bold;">complete this online form</a> by June 3, 2022. Students and post-docs enrolled in programs associated with NOAA's QUEST program and/or at CINAR institutions and  will be given first priority. All finalized course materials will be available to the public <a href="https://github.com/gnesslage/LBSAT-Course" style="color: DarkOrchid; text-decoration: bold;">on Github</a> in January 2023.
+This free online workshop is open to 20 current students and post-docs and will not be offered for credit. Participants are expected to have completed a basic stock assessment or population dynamics course, be familiar with data analysis in R, and have a willingness to learn to run other code provided (e.g., AD Model Builder) with instruction. To express interest in the course, please <a href="https://forms.gle/rd9BtSX6LjVUP8c6A" style="color: DarkOrchid; text-decoration: bold;">complete this online form</a> by June 3, 2022. Students and post-docs enrolled in programs associated with NOAA's QUEST program and/or at CINAR institutions and  will be given first priority. All finalized course materials will be available to the public <a href="https://github.com/gnesslage/LBSAT-Course" style="color: DarkOrchid; text-decoration: bold;">on Github</a> in January 2023.
 
 Software requirements:  
+
  - [R](https://cran.case.edu/)  
- - [Notepad++](https://notepad-plus-plus.org/)  
- - [AD Studio](http://www.admb-project.org/tools/admb-ide/) (Optional)
+
+ - [Notepad++](https://notepad-plus-plus.org/)
+
+ - Ability to run executables (.exe) files provided
