@@ -4,12 +4,11 @@ author: "Genny Nesslage"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib]
+bibliography: book.bib
 biblio-style: apalike
 link-citations: yes
 github-repo: gnesslage/LBSAT-Workshop
-#url: ''
-description: "Syllabus and workshop materials"
+description: Syllabus and workshop materials
 ---
 
 # Syllabus
