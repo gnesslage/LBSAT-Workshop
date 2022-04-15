@@ -43,4 +43,4 @@ Software requirements:
 
  - [Notepad++](https://notepad-plus-plus.org/)
 
- - Ability to run executables (.exe) files provided
+ - Ability to run executables (.exe files) provided
