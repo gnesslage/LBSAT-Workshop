@@ -23,10 +23,10 @@ Email: nesslage@umces.edu
 Website: <a href="https://nesslage.wixsite.com/mysite" style="color: DarkOrchid; text-decoration: bold;">nesslage.wixsite.com/mysite</a>
 
 ## Schedule
-Participants will meet via webinar weekly on Thursdays from 3:00-5:00PM Eastern from September 1-December 8, 2022. We will not meet on Thanksgiving Day (Nov 24). Tentative schedule:
+Participants will meet via webinar weekly on Thursdays from 3:00-5:00PM Eastern from September 1-December 8, 2022. We will not meet on October 27 and Thanksgiving Day (Nov 24). Tentative schedule:
 ```{r,echo=FALSE}
-Dates=c("Sept 1","Sept 8","Sept 15","Sept 22","Sept 29","Oct 6","Oct 13","Oct 20","Oct 27","Nov 3","Nov 10","Nov 17","Dec 1","Dec 8")
-Topic=c("Introduction","Growth and length data","Length-frequency analysis","Data-limited approaches","Data-limited approaches","Stage-based modeling","Stage-based modeling","Statistical catch-at-length models","Statistical catch-at-length models","Statistical catch-at-length models","Age-length hybrid models","Age-length hybrid models","Techniques in development","Wrap up and reflection")
+Dates=c("Sept 1","Sept 8","Sept 15","Sept 22","Sept 29","Oct 6","Oct 13","Oct 20","Nov 3","Nov 10","Nov 17","Dec 1","Dec 8")
+Topic=c("Introduction","Simple methods","Length-frequency analysis","Stage-based modeling","Intro to statistical modeling","GUEST - Yan Li, NCDENR (blue crab & spotted sea trout models)","Statistical catch-at-length models (cont'd)","Statistical catch-at-length models (cont'd)","Age-length hybrid models","GUESTS - Jeff Kipp & Katie Drew, ASMFC (American lobster & northern shrimp models)","GUEST - Cody Szuwalkski, NOAA (West Coast crab models)","GUEST - Mike Wilberg, UMCES CBL (Chesapeake Bay spatial oyster model)","More examples & wrap up")
 syllabus=data.frame(Dates,Topic)
 knitr::kable(
   head(syllabus[,1:2],14), booktabs = TRUE,format="pandoc"
