@@ -7,3 +7,4 @@ enrollment-and-pre-requisites
 introduction-1
 section
 syllabus
+workshop-materials
